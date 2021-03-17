@@ -1,15 +1,18 @@
-img{
-  float: left;
+.my-class {
+  border: 2px solid green;
+  padding: 10px;
+  background-color: orange;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 50%;
+  box-sizing: border-box;
+  display: block;
 }
 
-.sidebar{
-  width: 30%;
-  float: right;
-  background-color: yellow;
-}
-
-.column{
-  width: 300px;
-  float: left;
+.centered-image {
+  margin: auto;
+  width: 50%;
+  height: auto;
+  display: block;
 }
